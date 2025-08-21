@@ -8,20 +8,41 @@
 }
 
 /* Reset margins/padding on semantic elements */
-article, section, nav, header, footer, main, aside,
-figure, figcaption, h1, h2, h3, h4, h5, h6,
-p, ul, ol, li, blockquote, img {
+article,
+section,
+nav,
+header,
+footer,
+main,
+aside,
+figure,
+figcaption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote,
+img {
     margin: 0;
     padding: 0;
 }
 
 /* Box sizing for all elements */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
 /* Remove list styles */
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
 
@@ -69,12 +90,19 @@ img.bg-image {
 
 .carousel-container {
     background-color: #414f6bec;
-    /* height: 20vh; */
+}
+
+.thumb-grid {
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
+    gap: 5px;
+    justify-content: center;
 }
 
 .carousel-thumb img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
 }
 
@@ -83,11 +111,15 @@ img.bg-image {
 }
 
 .carousel-indicators [data-bs-target] {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%; 
-  background-color: #fff;
-  margin: 0 6px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 6px;
+}
+
+.carousel-thumb {
+    height: auto;
 }
 
 #history-content {
@@ -101,7 +133,7 @@ img.bg-image {
 
 .tab-content figure {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     position: absolute;
     top: 15%;
     left: 20%;
