@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Los Angeles Mountains</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link href="./css/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Landing page content -->
+    <section class="hero-section">
+      <header class="site-header">
+        <div class="container-fluid">
+          <nav
+            class="d-flex justify-content-around align-items-center navbar"
+            aria-label="Main Navigation"
+          >
+            <!-- Logo -->
+            <a href="/" class="main-logo">
+              <img src="./img/logo.png" alt="Los Angeles Mountains Logo" />
+            </a>
+
+            <!-- Nav links -->
+            <ul class="d-flex align-items-center gap-4 list-unstyled m-0">
+              <li><a href="#history-page">01. HISTORY</a></li>
+              <li><a href="#team-page">02. TEAM</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </section>
+
+    <!-- History page content -->
+    <section id="history-page" class="history-page">
+      <header class="section-header">
+        <div class="container-fluid">
+          <nav
+            class="d-flex justify-content-around align-items-center navbar"
+            aria-label="History section navigation"
+          >
+            <!-- Logo -->
+            <a href="#" class="mountain-logo">
+              <img
+                src="./img/Logo_wMountains.png"
+                alt="Los Angeles Mountains Logo"
+              />
+            </a>
+
+            <!-- Nav links -->
+            <ul class="d-flex align-items-center gap-4 list-unstyled m-0">
+              <li><a href="#history-page">01. HISTORY</a></li>
+              <li><a href="#team-page">02. TEAM</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <article class="history-section position-relative">
+        <div class="w-50" id="history-content">
+          <figure>
+            <img
+              src="./img/01history.png"
+              alt="Historic Los Angeles Mountains heading"
+            />
+            <figcaption class="visually-hidden">
+              Historic Los Angeles Mountains
+            </figcaption>
+          </figure>
+
+          <p class="ms-5">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+            sint consequatur ducimus. Quis quasi, illum tempore aliquam
+            blanditiis neque praesentium non! Modi dolor in non. Consectetur,
+            vel laboriosam quod ipsam perspiciatis delectus nam adipisci eum
+            accusantium suscipit dolores numquam animi necessitatibus molestias
+            sequi similique blanditiis rem.
+          </p>
+        </div>
+
+        <!-- image carousel container -->
+        <div
+          class="carousel-container d-flex justify-content-center align-items-center w-100 position-absolute bottom-0 py-4"
+        >
+          <!-- <div
+            class="img-container d-flex justify-content-center align-items-center w-50"
+          > -->
+            <div
+              id="img-carousel"
+              class="carousel slide w-50"
+              data-bs-ride="carousel"
+              data-bs-interval="5000"
+            >
+              <!-- Slides -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex gap-1 h-100">
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb1.png" alt="Thumbnail 1" />
+                      </a>
+                    </div>
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb2.png" alt="Thumbnail 2" />
+                      </a>
+                    </div>
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb1.png" alt="Thumbnail 3" />
+                      </a>
+                    </div>
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb2.png" alt="Thumbnail 4" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="d-flex gap-1">
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb1.png" alt="Thumbnail 5" />
+                      </a>
+                    </div>
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb2.png" alt="Thumbnail 6" />
+                      </a>
+                    </div>
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb1.png" alt="Thumbnail 7" />
+                      </a>
+                    </div>
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb2.png" alt="Thumbnail 8" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="d-flex gap-1">
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb1.png" alt="Thumbnail 9" />
+                      </a>
+                    </div>
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb2.png" alt="Thumbnail 10" />
+                      </a>
+                    </div>
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb1.png" alt="Thumbnail 11" />
+                      </a>
+                    </div>
+                    <div class="carousel-thumb flex-fill">
+                      <a href="#">
+                        <img src="./img/thumb2.png" alt="Thumbnail 12" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Indicators -->
+              <div
+                class="carousel-indicators d-flex justify-content-center position-absolute mb-0"
+              >
+                <button
+                  type="button"
+                  data-bs-target="#img-carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#img-carousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#img-carousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+            </div>
+          </div>
+        <!-- </div> -->
+        <!-- end of carousel -->
+      </article>
+    </section>
+
+    <!-- ClimbTeam page content -->
+    <section id="team-page">
+      <!-- Climb Team page header -->
+      <header
+        class="d-flex justify-content-center align-items-center gap-4 p-3"
+      >
+        <figure>
+          <img src="./img/02climb.png" alt="Los Angeles Mountains Climb Team" />
+          <figcaption class="visually-hidden">
+            Los Angeles Mountains Climb Team
+          </figcaption>
+        </figure>
+
+        <div class="d-flex align-items-center justify-content-center w-50">
+          <p class="m-0 text-wrap">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque,
+            libero quod illum eius porro ullam. Debitis quisquam incidunt autem
+            rerum enim quia blanditiis delectus? Fuga.
+          </p>
+        </div>
+      </header>
+
+      <!-- Team page tabs -->
+      <nav aria-label="Climb Team Page Tabs">
+        <ul class="nav nav-tabs" id="nav-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="nav-mountain1-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#mountain1-tab"
+              type="button"
+              role="tab"
+              aria-controls="mountain1-tab"
+              aria-selected="true"
+            >
+              MOUNTAIN 1
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="nav-mountain2-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#mountain2-tab"
+              type="button"
+              role="tab"
+              aria-controls="mountain2-tab"
+              aria-selected="false"
+            >
+              MOUNTAIN 2
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="tab-content position-relative" id="nav-tabContent">
+        <!-- Mountain 1 Tab Content -->
+        <section
+          class="tab-pane fade show active"
+          id="mountain1-tab"
+          role="tabpanel"
+          aria-labelledby="mountain1-tab"
+          tabindex="0"
+        >
+          <figure>
+            <img
+              src="./img/schedule-content.png"
+              alt="Climb Team Schedule 1"
+              class="tab-images"
+            />
+          </figure>
+          <figcaption class="visually-hidden">Climb Team Schedule 1</figcaption>
+        </section>
+
+        <!-- Mountain 2 Tab Content -->
+        <section
+          class="tab-pane fade"
+          id="mountain2-tab"
+          role="tabpanel"
+          aria-labelledby="mountain2-tab"
+          tabindex="0"
+        >
+          <figure>
+            <img
+              src="./img/schedule-content.png"
+              alt="Climb Team Schedule 2"
+              class="tab-images"
+            />
+            <figcaption class="visually-hidden">
+              Climb Team Schedule 2
+            </figcaption>
+          </figure>
+        </section>
+      </div>
+    </section>
+
+    <!-- Footer content -->
+    <footer
+      class="d-flex justify-content-around align-items-center navbar p-2"
+      id="foot"
+    >
+      <!-- Logo and Site Name -->
+      <div class="d-flex align-items-center gap-3">
+        <a href="#" class="mountain-logo">
+          <img src="./img/logo.png" alt="Los Angeles Mountains Logo" />
+        </a>
+        <p class="text-light lh-sm">
+          <strong
+            >LOS ANGELES <br />
+            MOUNTAINS</strong
+          >
+        </p>
+      </div>
+
+      <!-- Copyright Notice -->
+      <div class="d-flex align-items-center">
+        <img src="./img/copy.png" alt="Copyright 2016. All Rights Reserved" />
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

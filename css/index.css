@@ -1,0 +1,155 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Reset margins/padding on semantic elements */
+article, section, nav, header, footer, main, aside,
+figure, figcaption, h1, h2, h3, h4, h5, h6,
+p, ul, ol, li, blockquote, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Box sizing for all elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset figure margins specifically */
+figure {
+    margin: 0;
+}
+
+/* Variables */
+
+:root {
+    --primary-color: #414f6b;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+
+/* Common Styles */
+
+.nav-link {
+    color: var(--white-color)
+}
+
+
+/* Hero Styles */
+
+img.bg-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-section {
+    background: url('../img/LaBanner2.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* History Section Styles */
+
+.history-section {
+    background: url('../img/Bg.png') no-repeat;
+    background-size: cover;
+    height: 93vh;
+}
+
+.carousel-container {
+    background-color: #414f6bec;
+    /* height: 20vh; */
+}
+
+.carousel-thumb img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-indicators {
+    bottom: -26px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%; 
+  background-color: #fff;
+  margin: 0 6px;
+}
+
+#history-content {
+    position: absolute;
+    top: 8%;
+    left: 20%;
+}
+
+
+/* Team Section Styles */
+
+.tab-content figure {
+    margin: 0;
+    padding: 0; 
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.tab-images {
+    /* position: absolute;
+    top: 15%;
+    left: 20%; */
+    opacity: 0.9;
+}
+
+.nav-tabs {
+    background-color: var(--primary-color);
+    border-top: none;
+    border-bottom: none;
+    padding-left: 13%;
+}
+
+.nav-tabs .nav-link {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: var(--primary-color);
+    background-color: rgb(175, 182, 197);
+}
+
+#mountain1-tab {
+    background: url('../img/tab1.png') no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: bottom;
+}
+
+#mountain2-tab {
+    background: url('../img/tab2.png') no-repeat;
+    background-size: cover;
+    height: 78vh;
+    background-position: bottom;
+}
+
+/* Footer Styles */
+
+#foot {
+    background-color: var(--primary-color);
+}
+
+/* Media Queries */
