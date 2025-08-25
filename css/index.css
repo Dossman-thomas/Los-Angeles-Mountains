@@ -7,9 +7,10 @@
     font-family: Arial, sans-serif;
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -195,9 +196,24 @@ figure {
 
 /* Media Queries */
 
+@media (max-width: 375px) {
+    .responsive-mt {
+        margin-top: 10px !important;
+    }
+
+}
+
 /* Small Screens */
 @media (max-width: 769px) {
+
+    /* Hero Section */
     .hero-section {
         background-position: 39% center;
     }
+
+    /* History Section */
+
+
+    /* Team Section */
+
 }
