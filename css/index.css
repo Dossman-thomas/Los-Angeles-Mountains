@@ -11,8 +11,8 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
+    font-size: 1rem;
 }
-
 
 /* Reset margins/padding on semantic elements */
 article,
@@ -91,11 +91,13 @@ figure {
 /* History Section Styles */
 
 .history-section {
-    background: url('../img/Bg.png') no-repeat;
+    background: url('../img/Bg.png') no-repeat center 0%;
     background-size: cover;
     height: 93vh;
     width: 100%;
 }
+
+.text-bodies {}
 
 .carousel-container {
     background-color: #414f6bec;
@@ -201,6 +203,8 @@ figure {
         margin-top: 10px !important;
     }
 
+
+
 }
 
 /* Small Screens */
@@ -212,7 +216,25 @@ figure {
     }
 
     /* History Section */
+    .history-section {
+        height: 100vh;
+    }
 
+    .history-section p {
+        margin-top: 20px;
+        margin-left: 5% !important; 
+        width: 70vw;
+
+        color: white;
+        background-color: var(--primary-color);
+        text-align: center;
+
+    }
+
+    #history-content {
+        position: absolute;
+        left: 14%;
+    }
 
     /* Team Section */
 
