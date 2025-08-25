@@ -7,6 +7,12 @@
     font-family: Arial, sans-serif;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
 /* Reset margins/padding on semantic elements */
 article,
 section,
@@ -69,15 +75,16 @@ figure {
 
 /* Hero Styles */
 
-img.bg-image {
+/* img.bg-image {
     width: 100%;
     height: auto;
-}
+} */
 
 .hero-section {
-    background: url('../img/LaBanner2.png') no-repeat;
+    background: url('../img/LaBanner2.png') no-repeat 50% 0%;
     background-size: cover;
     height: 100vh;
+    width: 100%;
 }
 
 /* History Section Styles */
@@ -86,16 +93,17 @@ img.bg-image {
     background: url('../img/Bg.png') no-repeat;
     background-size: cover;
     height: 93vh;
+    width: 100%;
 }
 
 .carousel-container {
     background-color: #414f6bec;
+    width: 100%;
 }
 
 .thumb-grid {
     display: grid;
-    /* grid-template-columns: repeat(4, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
+    grid-template-columns: repeat(4, minmax(120px, max-content));
     gap: 5px;
     justify-content: center;
 }
@@ -122,6 +130,10 @@ img.bg-image {
     height: auto;
 }
 
+#img-carousel {
+    max-width: 60%;
+}
+
 #history-content {
     position: absolute;
     top: 8%;
@@ -140,9 +152,6 @@ img.bg-image {
 }
 
 .tab-images {
-    /* position: absolute;
-    top: 15%;
-    left: 20%; */
     opacity: 0.9;
 }
 
@@ -185,3 +194,10 @@ img.bg-image {
 }
 
 /* Media Queries */
+
+/* Small Screens */
+@media (max-width: 769px) {
+    .hero-section {
+        background-position: 39% center;
+    }
+}
