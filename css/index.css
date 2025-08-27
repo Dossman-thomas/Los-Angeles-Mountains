@@ -76,11 +76,6 @@ figure {
 
 /* Hero Styles */
 
-/* img.bg-image {
-    width: 100%;
-    height: auto;
-} */
-
 .hero-section {
     background: url('../img/LaBanner2.png') no-repeat 50% 0%;
     background-size: cover;
@@ -96,8 +91,6 @@ figure {
     height: 93vh;
     width: 100%;
 }
-
-.text-bodies {}
 
 .carousel-container {
     background-color: #414f6bec;
@@ -237,5 +230,27 @@ figure {
     }
 
     /* Team Section */
+
+    .tab-content figure {
+        top: 15%;
+        left: 8%;
+    }
+
+    .tab-images {
+        width: 90%;
+    }
+
+    .nav-tabs {
+        padding-left: 0;
+    }
+
+    #climb-team-header {
+        flex-direction: column;
+    }
+
+    #climb-team-text {
+        width: 100% !important;    
+        text-align: center;
+    }
 
 }
